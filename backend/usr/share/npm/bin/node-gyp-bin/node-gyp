@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+if [ "x$npm_config_node_gyp" = "x" ]; then
+  /usr/bin/node-gyp "$@"
+else
+  "$npm_config_node_gyp" "$@"
+fi

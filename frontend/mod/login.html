@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <link rel="icon" type="image/x-icon" href="/favicon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Squealer Moderator Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="js/login" type="module"></script>
+  </head>
+
+  <body class="font-sans bg-gray-200 flex items-center justify-center h-screen">
+    <div class="bg-white w-full max-w-md rounded shadow p-6">
+      <h2 class="text-2xl font-bold mb-4 text-center">Login - Moderatore</h2>
+      <form>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="username"
+          >
+            Username
+          </label>
+          <input
+            class="w-full bg-gray-200 text-gray-700 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="username"
+            type="text"
+          />
+        </div>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="w-full bg-gray-200 text-gray-700 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="password"
+            type="password"
+          />
+        </div>
+        <p class="text-red-500 text-sm mb-4" id="error-message"></p>
+        <button
+          id="login"
+          type="submit"
+          class="bg-blue-800 text-white px-4 py-2 rounded w-full"
+        >
+          Entra
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

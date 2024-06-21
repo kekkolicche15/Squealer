@@ -1,0 +1,84 @@
+{
+  "db": {
+    "site": "REDACTED",
+    "user": "REDACTED",
+    "pwd": "REDACTED",
+    "dbname": "REDACTED"
+  },
+  "externalLink": "REDACTED",
+  "email": {
+    "from": "REDACTED",
+    "KEY": "REDACTED",
+    "templates": {
+      "CONFIRMATION": {
+        "it": "REDACTED",
+        "en": "REDACTED"
+      },
+      "RESTORE": {
+        "it": "REDACTED",
+        "en": "REDACTED"
+      }
+    }
+  },
+  "jwt": {
+    "accessExpire": "1h",
+    "refreshExpire": "10d",
+    "access": "REDACTED",
+    "refresh": "REDACTED"
+  },
+  "bcrypt": {
+    "saltRounds": 3,
+    "refTokenSalt": "peppecasa"
+  },
+  "patterns": {
+    "username": "^(?!_+$)[a-zA-Z0-9_]{2,20}$",
+    "password": "^.*.{8,}$",
+    "email": "^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
+    "channel": "^(?!_+$)[a-z0-9_]{4,25}$",
+    "description": "^.{1,400}$",
+    "query": "^\\?([^&]+=[^&]+(&[^&]+=[^&]+)*)$",
+    "reference": "\\![cu]\\!([^\\!\\s]+)\\!\\!"
+  },
+  "quotas": {
+    "user": [2000, 5000, 15000],
+    "vip": [10000, 25000, 75000],
+    "mod": [99999999, 99999999, 99999999]
+  },
+  "uploads": {
+    "image": {
+      "cost": 125,
+      "maxSize": 209715200,
+      "small": [256, 256],
+      "big": [1280, 1280]
+    },
+    "video": {
+      "cost": 1000,
+      "maxSize": 209715200
+    },
+    "text": {
+      "cost": 0
+    },
+    "users": { "default": "default.jpg" },
+    "channels": { "default": "default.jpg" },
+    "posts": {},
+    "messages": {},
+    "generals": {}
+  },
+  "searches": {
+    "CHUNKSIZE": 20,
+    "CHUNKSIZE_PROFILES_CHANNELS": 20,
+    "repliesNo": 20,
+    "CHUNKSIZE_MESSAGES": 20,
+    "CHUNKSIZE_ALLCHATS": 8
+  },
+  "misc": {
+    "scoreQuotaConversion": 5,
+    "MvipCost": 500,
+    "vipCost": 25000,
+    "smmCost": 1000,
+    "modCost": 500,
+    "reviews": [1, 2, 3, 4, 5],
+    "reactions": [-4, -3, -2, -1, 1, 2, 3, 4],
+    "ExtraQuotas": 10
+  }
+}

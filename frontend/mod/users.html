@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <link rel="icon" type="image/x-icon" href="/favicon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="/mod/components/header" type="module"></script>
+    <script src="/mod/components/navigator" type="module"></script>
+    <script src="/mod/components/labelledField" type="module"></script>
+    <script src="/mod/components/modalMedia" type="module"></script>
+    <script src="/mod/js/users" type="module"></script>
+    <title>Mod Dashboard - Utenti</title>
+  </head>
+
+  <body>
+    <header-navbar selected="Utenti"></header-navbar>
+    <div class="w-full p-3 hidden" id="filters-selector">
+      <form class="w-full max-w-lg mx-auto">
+        <div class="mb-4">
+          <label class="block text-sm font-bold mb-2" for="filter-username">
+            Username
+          </label>
+          <input
+            class="w-full bg-gray-300 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="filter-username"
+            type="text"
+            placeholder="peppecasa"
+          />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-bold mb-2" for="filter-ban">
+            Stato
+          </label>
+          <select
+            class="w-full bg-gray-300 border border-gray-200 py-2 px-3 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+            id="filter-ban"
+          >
+            <option value="all" selected>Tutti</option>
+            <option value="banned">Bannato</option>
+            <option value="notbanned">Non bannato</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-bold mb-2">
+            Ruolo
+            <div class="ml-2">
+              <label class="mr-2">
+                <input type="checkbox" name="filter-role" value="user" />
+                Utente
+              </label>
+              <label class="mr-2">
+                <input type="checkbox" name="filter-role" value="vip" />
+                VIP
+              </label>
+              <label class="mr-2">
+                <input type="checkbox" name="filter-role" value="smm" />
+                SMM
+              </label>
+              <label class="mr-2">
+                <input type="checkbox" name="filter-role" value="mod" />
+                Moderatore
+              </label>
+            </div>
+          </label>
+        </div>
+        <div class="mb-4 flex justify-end">
+          <button
+            class="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded mr-2"
+            type="button"
+            id="hide-filters-button"
+          >
+            Nascondi Filtri
+          </button>
+          <button
+            class="bg-gray-300 hover:bg-gray-400 text-black font-bold py-2 px-4 rounded"
+            type="reset"
+          >
+            Resetta
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="w-full">
+      <div class="flex flex-col md:flex-row justify-center pt-2 space-x-4">
+        <div class="w-full max-w-lg mx-auto">
+          <div class="mb-4">
+            <label class="block text-sm font-bold mb-2" for="input-username">
+              Username
+            </label>
+            <input
+              class="w-full bg-gray-300 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="input-username"
+              type="text"
+              placeholder="peppecasa"
+            />
+          </div>
+          <div
+            class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2"
+          >
+            <button
+              class="bg-green-800 hover:bg-green-900 text-white py-2 px-3 mr-auto w-full md:w-auto rounded"
+              type="button"
+              id="show-filters-button"
+            >
+              Mostra filtri avanzati
+            </button>
+            <button
+              class="bg-blue-800 hover:bg-blue-900 text-white py-2 px-3 ml-auto w-full md:w-auto rounded"
+              type="button"
+              id="search-button"
+            >
+              Cerca utenti
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="card-container"></div>
+    <page-navigator class="mb-2"></page-navigator>
+  </body>
+</html>

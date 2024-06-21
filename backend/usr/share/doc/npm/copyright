@@ -1,0 +1,577 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: npm
+Upstream-Contact: https://github.com/npm/cli/issues
+Source: https://github.com/npm/cli
+ Repackaged for easier copyright maintainability - note also that underscore contains a minified file.
+ Either external modules are available as debian packages, in which case
+ they are removed; or they are not good candidates for being packaged
+ at the moment, in which case they are kept.
+Files-Excluded:
+ node_modules/abbrev
+ node_modules/agent-base
+ node_modules/ajv
+ node_modules/ansi-regex
+ node_modules/ansi-styles
+ node_modules/ansistyles
+ node_modules/aproba
+ node_modules/archy
+ node_modules/are-we-there-yet
+ node_modules/asap
+ node_modules/asn1
+ node_modules/assert-plus
+ node_modules/asynckit
+ node_modules/aws4
+ node_modules/aws-sign2
+ node_modules/balanced-match
+ node_modules/bcrypt-pbkdf
+ node_modules/brace-expansion
+ node_modules/builtins
+ node_modules/cacache
+ node_modules/caseless
+ node_modules/chalk
+ node_modules/chownr
+ node_modules/clone
+ node_modules/color-convert
+ node_modules/color-name
+ node_modules/colors
+ node_modules/columnify
+ node_modules/combined-stream
+ node_modules/concat-map
+ node_modules/console-control-strings
+ node_modules/core-util-is
+ node_modules/dashdash
+ node_modules/debug
+ node_modules/defaults
+ node_modules/delayed-stream
+ node_modules/delegates
+ node_modules/depd
+ node_modules/ecc-jsbn
+ node_modules/encoding
+ node_modules/err-code
+ node_modules/extend
+ node_modules/extsprintf
+ node_modules/fast-deep-equal
+ node_modules/fast-json-stable-stringify
+ node_modules/forever-agent
+ node_modules/form-data
+ node_modules/fs.realpath
+ node_modules/function-bind
+ node_modules/gauge
+ node_modules/getpass
+ node_modules/glob
+ node_modules/graceful-fs
+ node_modules/har-schema
+ node_modules/har-validator
+ node_modules/has
+ node_modules/has-flag
+ node_modules/has-unicode
+ node_modules/hosted-git-info
+ node_modules/http-signature
+ node_modules/https-proxy-agent
+ node_modules/iconv-lite
+ node_modules/indent-string
+ node_modules/imurmurhash
+ node_modules/inflight
+ node_modules/inherits
+ node_modules/ini
+ node_modules/ip
+ node_modules/ip-regex
+ node_modules/is-core-module
+ node_modules/is-typedarray
+ node_modules/isarray
+ node_modules/isexe
+ node_modules/isstream
+ node_modules/jsbn
+ node_modules/jsonparse
+ node_modules/json-parse-even-better-errors
+ node_modules/json-schema
+ node_modules/json-schema-traverse
+ node_modules/json-stringify-safe
+ node_modules/jsprim
+ node_modules/leven
+ node_modules/lru-cache
+ node_modules/mime-db
+ node_modules/mime-types
+ node_modules/minimatch
+ node_modules/mkdirp
+ node_modules/ms
+ node_modules/mute-stream
+ node_modules/node-gyp
+ node_modules/nopt
+ node_modules/normalize-package-data
+ node_modules/npm-bundled
+ node_modules/*npmcli/move-file
+ node_modules/npmlog
+ node_modules/npm-package-arg
+ node_modules/number-is-nan
+ node_modules/oauth-sign
+ node_modules/object-assign
+ node_modules/once
+ node_modules/opener
+ node_modules/path-is-absolute
+ node_modules/path-parse
+ node_modules/performance-now
+ node_modules/p-map
+ node_modules/process-nextick-args
+ node_modules/promise-inflight
+ node_modules/promise-retry
+ node_modules/promzard
+ node_modules/psl
+ node_modules/puka
+ node_modules/punycode
+ node_modules/qs
+ node_modules/read
+ node_modules/read-package-json
+ node_modules/readable-stream
+ node_modules/request
+ node_modules/resolve
+ node_modules/retry
+ node_modules/rimraf
+ node_modules/safe-buffer
+ node_modules/safer-buffer
+ node_modules/semver
+ node_modules/set-blocking
+ node_modules/signal-exit
+ node_modules/spdx-correct
+ node_modules/spdx-exceptions
+ node_modules/spdx-expression-parse
+ node_modules/spdx-license-ids
+ node_modules/sshpk
+ node_modules/ssri
+ node_modules/string_decoder
+ node_modules/string-width
+ node_modules/strip-ansi
+ node_modules/supports-color
+ node_modules/tar
+ node_modules/text-table
+ node_modules/tunnel-agent
+ node_modules/tweetnacl
+ node_modules/typedarray-to-buffer
+ node_modules/unique-filename
+ node_modules/uri-js
+ node_modules/util-deprecate
+ node_modules/uuid
+ node_modules/validate-npm-package-license
+ node_modules/validate-npm-package-name
+ node_modules/verror
+ node_modules/wcwidth
+ node_modules/which
+ node_modules/wide-align
+ node_modules/wrappy
+ node_modules/write-file-atomic
+ node_modules/yallist
+
+Files: *
+Copyright: npm, Inc. and Contributors
+License: Artistic-2.0
+
+Files: docs/*
+Copyright: 2015, gatsbyjs
+License: Expat
+
+Files: node_modules/*
+Copyright: npm, Inc.
+License: ISC
+
+Files: node_modules/agentkeepalive/*
+Copyright: 2012-2015, fengmk2 <fengmk2@gmail.com>
+ Joyent, Inc. and other Node contributors
+License: Expat
+
+Files: node_modules/ansicolors/*
+Copyright: 2013, Thorsten Lorenz
+License: Expat
+
+Files: node_modules/byte-size/*
+Copyright: 2014-2018, Lloyd Brookes <75pound@gmail.com>
+License: Expat
+
+Files: node_modules/cidr-regex/*
+ node_modules/is-cidr/*
+Copyright: silverwind
+License: Expat
+
+Files: node_modules/cli-columns/*
+Copyright: Shannon Moeller <me@shannonmoeller.com>
+License: Expat
+
+Files: node_modules/cli-table3/*
+Copyright: 2014, James Talmage <james.talmage@jrtechnical.com>
+License: Expat
+
+Files: node_modules/aggregate-error/*
+ node_modules/binary-extensions/*
+ node_modules/clean-stack/*
+ node_modules/cli-table3/node_modules/*
+ node_modules/code-point-at/*
+ node_modules/env-paths/*
+ node_modules/is-fullwidth-code-point/*
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: Expat
+
+Files: node_modules/common-ancestor-path/*
+ node_modules/dezalgo/*
+ node_modules/fs-minipass/*
+ node_modules/ignore-walk/*
+ node_modules/init-package-json/*
+ node_modules/json-stringify-nice/*
+ node_modules/libnpmversion/*
+ node_modules/minipass-collect/*
+ node_modules/minipass-flush*
+ node_modules/minipass-pipeline/*
+ node_modules/minipass-sized/*
+ node_modules/mkdirp-infer-owner/*
+ node_modules/npm-packlist/*
+ node_modules/pacote/*
+ node_modules/promise-all-reject-late/*
+ node_modules/promise-call-limit/*
+ node_modules/readdir-scoped-modules/*
+ node_modules/walk-up-path/*
+Copyright: Isaac Z. Schlueter
+License: ISC
+
+Files: node_modules/debuglog/*
+Copyright: Joyent, Inc. and other Node contributors
+License: Expat
+
+Files: node_modules/emoji-regex/*
+Copyright: Mathias Bynens <https://mathiasbynens.be/>
+License: Expat
+
+Files: node_modules/http-cache-semantics/*
+Copyright: 2016-2018 Kornel Lesiński
+License: BSD-2-Clause
+
+Files: node_modules/humanize-ms/*
+Copyright: dead-horse <dead_horse@qq.com>
+License: Expat
+
+Files: node_modules/is-lambda/*
+Copyright: 2016-2017 Thomas Watson Steen
+License: Expat
+
+Files: node_modules/just-diff-apply/*
+ node_modules/just-diff/*
+Copyright: 2016 angus croll
+License: Expat
+
+Files: node_modules/minipass-fetch/*
+Copyright: Isaac Z. Schlueter and Contributors
+ 2016 David Frank
+License: Expat
+Comment: This is a derivative work based on "node-fetch" by David Frank,
+ modified and distributed under the terms of the MIT license above.
+ https://github.com/bitinn/node-fetch
+
+Files: node_modules/minipass-json-stream/*
+Copyright: Isaac Z. Schlueter and Contributors
+ 2011 Dominic Tarr
+License: Expat
+Comment: This is a derivative work based on JSONStream by Dominic Tarr,
+ modified and redistributed according to the terms of the MIT license above.
+
+Files: node_modules/minizlib/*
+Copyright: Isaac Z. Schlueter and Contributors
+ Node.js contributors
+ Joyent, Inc. and other Node contributors
+License: Expat
+
+Files: node_modules/npm-install-checks/*
+Copyright: Robert Kowalski <rok@kowalski.gd>
+ Isaac Z. Schlueter
+License: BSD-2-Clause
+
+Files: node_modules/npm-user-validate/*
+Copyright: Robert Kowalski <rok@kowalski.gd>
+License: BSD-2-Clause
+
+Files: node_modules/qrcode-terminal/*
+Copyright: Unknown
+License: Apache-2.0
+
+Files: node_modules/read-cmd-shim/*
+Copyright: 2015 Rebecca Turner
+License: ISC
+
+Files: node_modules/smart-buffer/*
+ node_modules/socks/*
+Copyright: 2013-2017, Josh Glazebrook
+License: Expat
+
+Files: node_modules/tiny-relative-date/*
+Copyright: 2017, Joseph Wynn
+License: Expat
+
+Files: debian/*
+Copyright: 2011-2019, Jérémy Lal <kapouer@melix.org>
+ 2011-2012, Jonas Smedegaard <dr@jones.dk>
+ 2018-2020, Pirate Praveen <praveen@debian.org>
+ 2019, Manas Kashyap <manaskashyaptech@gmail.com>
+ 2019-2021, Xavier Guimard <yadd@debian.org>
+License: Artistic-2.0
+
+License: Apache-2.0
+ On Debian systems, the complete text of the Apache version 2.0 license
+ can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+License: Artistic-2.0
+ The Artistic License 2.0
+ .
+ Copyright (c) 2000-2006, The Perl Foundation.
+ .
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+ .
+ Preamble
+ .
+ This license establishes the terms under which a given free software
+ Package may be copied, modified, distributed, and/or redistributed.
+ The intent is that the Copyright Holder maintains some artistic
+ control over the development of that Package while still keeping the
+ Package available as open source and free software.
+ .
+ You are always permitted to make arrangements wholly outside of this
+ license directly with the Copyright Holder of a given Package.  If the
+ terms of this license do not permit the full use that you propose to
+ make of the Package, you should contact the Copyright Holder and seek
+ a different licensing arrangement.
+ .
+ Definitions
+ .
+     "Copyright Holder" means the individual(s) or organization(s)
+     named in the copyright notice for the entire Package.
+ .
+     "Contributor" means any party that has contributed code or other
+     material to the Package, in accordance with the Copyright Holder's
+     procedures.
+ .
+     "You" and "your" means any person who would like to copy,
+     distribute, or modify the Package.
+ .
+     "Package" means the collection of files distributed by the
+     Copyright Holder, and derivatives of that collection and/or of
+     those files. A given Package may consist of either the Standard
+     Version, or a Modified Version.
+ .
+     "Distribute" means providing a copy of the Package or making it
+     accessible to anyone else, or in the case of a company or
+     organization, to others outside of your company or organization.
+ .
+     "Distributor Fee" means any fee that you charge for Distributing
+     this Package or providing support for this Package to another
+     party.  It does not mean licensing fees.
+ .
+     "Standard Version" refers to the Package if it has not been
+     modified, or has been modified only in ways explicitly requested
+     by the Copyright Holder.
+ .
+     "Modified Version" means the Package, if it has been changed, and
+     such changes were not explicitly requested by the Copyright
+     Holder.
+ .
+     "Original License" means this Artistic License as Distributed with
+     the Standard Version of the Package, in its current version or as
+     it may be modified by The Perl Foundation in the future.
+ .
+     "Source" form means the source code, documentation source, and
+     configuration files for the Package.
+ .
+     "Compiled" form means the compiled bytecode, object code, binary,
+     or any other form resulting from mechanical transformation or
+     translation of the Source form.
+ .
+ .
+ Permission for Use and Modification Without Distribution
+ .
+ (1)  You are permitted to use the Standard Version and create and use
+ Modified Versions for any purpose without restriction, provided that
+ you do not Distribute the Modified Version.
+ .
+ .
+ Permissions for Redistribution of the Standard Version
+ .
+ (2)  You may Distribute verbatim copies of the Source form of the
+ Standard Version of this Package in any medium without restriction,
+ either gratis or for a Distributor Fee, provided that you duplicate
+ all of the original copyright notices and associated disclaimers.  At
+ your discretion, such verbatim copies may or may not include a
+ Compiled form of the Package.
+ .
+ (3)  You may apply any bug fixes, portability changes, and other
+ modifications made available from the Copyright Holder.  The resulting
+ Package will still be considered the Standard Version, and as such
+ will be subject to the Original License.
+ .
+ .
+ Distribution of Modified Versions of the Package as Source
+ .
+ (4)  You may Distribute your Modified Version as Source (either gratis
+ or for a Distributor Fee, and with or without a Compiled form of the
+ Modified Version) provided that you clearly document how it differs
+ from the Standard Version, including, but not limited to, documenting
+ any non-standard features, executables, or modules, and provided that
+ you do at least ONE of the following:
+ .
+     (a)  make the Modified Version available to the Copyright Holder
+     of the Standard Version, under the Original License, so that the
+     Copyright Holder may include your modifications in the Standard
+     Version.
+ .
+     (b)  ensure that installation of your Modified Version does not
+     prevent the user installing or running the Standard Version. In
+     addition, the Modified Version must bear a name that is different
+     from the name of the Standard Version.
+ .
+     (c)  allow anyone who receives a copy of the Modified Version to
+     make the Source form of the Modified Version available to others
+     under
+ .
+         (i)  the Original License or
+ .
+         (ii)  a license that permits the licensee to freely copy,
+         modify and redistribute the Modified Version using the same
+         licensing terms that apply to the copy that the licensee
+         received, and requires that the Source form of the Modified
+         Version, and of any works derived from it, be made freely
+         available in that license fees are prohibited but Distributor
+         Fees are allowed.
+ .
+ .
+ Distribution of Compiled Forms of the Standard Version
+ or Modified Versions without the Source
+ .
+ (5)  You may Distribute Compiled forms of the Standard Version without
+ the Source, provided that you include complete instructions on how to
+ get the Source of the Standard Version.  Such instructions must be
+ valid at the time of your distribution.  If these instructions, at any
+ time while you are carrying out such distribution, become invalid, you
+ must provide new instructions on demand or cease further distribution.
+ If you provide valid instructions or cease distribution within thirty
+ days after you become aware that the instructions are invalid, then
+ you do not forfeit any of your rights under this license.
+ .
+ (6)  You may Distribute a Modified Version in Compiled form without
+ the Source, provided that you comply with Section 4 with respect to
+ the Source of the Modified Version.
+ .
+ .
+ Aggregating or Linking the Package
+ .
+ (7)  You may aggregate the Package (either the Standard Version or
+ Modified Version) with other packages and Distribute the resulting
+ aggregation provided that you do not charge a licensing fee for the
+ Package.  Distributor Fees are permitted, and licensing fees for other
+ components in the aggregation are permitted. The terms of this license
+ apply to the use and Distribution of the Standard or Modified Versions
+ as included in the aggregation.
+ .
+ (8) You are permitted to link Modified and Standard Versions with
+ other works, to embed the Package in a larger work of your own, or to
+ build stand-alone binary or bytecode versions of applications that
+ include the Package, and Distribute the result without restriction,
+ provided the result does not expose a direct interface to the Package.
+ .
+ .
+ Items That are Not Considered Part of a Modified Version
+ .
+ (9) Works (including, but not limited to, modules and scripts) that
+ merely extend or make use of the Package, do not, by themselves, cause
+ the Package to be a Modified Version.  In addition, such works are not
+ considered parts of the Package itself, and are not subject to the
+ terms of this license.
+ .
+ .
+ General Provisions
+ .
+ (10)  Any use, modification, and distribution of the Standard or
+ Modified Versions is governed by this Artistic License. By using,
+ modifying or distributing the Package, you accept this license. Do not
+ use, modify, or distribute the Package, if you do not accept this
+ license.
+ .
+ (11)  If your Modified Version has been derived from a Modified
+ Version made by someone other than you, you are nevertheless required
+ to ensure that your Modified Version complies with the requirements of
+ this license.
+ .
+ (12)  This license does not grant you the right to use any trademark,
+ service mark, tradename, or logo of the Copyright Holder.
+ .
+ (13)  This license includes the non-exclusive, worldwide,
+ free-of-charge patent license to make, have made, use, offer to sell,
+ sell, import and otherwise transfer the Package with respect to any
+ patent claims licensable by the Copyright Holder that are necessarily
+ infringed by the Package. If you institute patent litigation
+ (including a cross-claim or counterclaim) against any party alleging
+ that the Package constitutes direct or contributory patent
+ infringement, then this Artistic License to you shall terminate on the
+ date that such litigation is filed.
+ .
+ (14)  Disclaimer of Warranty:
+ THE PACKAGE IS PROVIDED BY THE COPYRIGHT HOLDER AND CONTRIBUTORS "AS
+ IS' AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES. THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+ NON-INFRINGEMENT ARE DISCLAIMED TO THE EXTENT PERMITTED BY YOUR LOCAL
+ LAW. UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER OR CONTRIBUTOR WILL
+ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+ DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS
+ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for
+ any purpose with or without fee is hereby granted, provided that the
+ above copyright notice and this permission notice appear in all
+ copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+ WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+ AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+ DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
+ OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ PERFORMANCE OF THIS SOFTWARE.

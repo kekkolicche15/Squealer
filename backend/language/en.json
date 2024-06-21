@@ -1,0 +1,301 @@
+{
+  "201": {
+    "user": {
+      "SIGNUP": "User successfully registered"
+    },
+    "channel": {
+      "CHANNEL": "Channel created successfully"
+    },
+    "post": {
+      "POST": "Post created successfully",
+      "REPLY": "Reply created successfully",
+      "REACTION": "Reaction created successfully"
+    },
+    "report": {
+      "USER": "You have reported the user",
+      "CHANNEL": "You have reported the channel",
+      "POST": "You have reported the post"
+    },
+    "mod": {
+      "OFFICIAL_CHANNEL": "You have created a new official channel"
+    },
+    "notification": {
+      "SENDED": "notification sent"
+    },
+    "message": {
+      "CREATE": "message sent successfully"
+    }
+  },
+  "200": {
+    "user": {
+      "PASSWORD_RESET_CONFIRM": "Password successfully reset",
+      "PASSWORD_RESET_REQUEST": "Password reset request successfully submitted",
+      "DELETE_USER": "User deleted",
+      "VIP_DISABLE": "You are no longer a VIP",
+      "DEBIT_DISABLED": "You no longer have a debt",
+      "DEBT_ADDED": "You now have a debt",
+      "LOGOUT": "Logout completed",
+      "UPDATE": "Fields updated successfully",
+      "PROPIC": "Profile picture updated",
+      "DELETE_PROPIC": "Profile picture removed",
+      "QUOTAS": "Quotas updated",
+      "SCORE": "Score updated",
+      "VIP": "You have become a VIP!"
+    },
+    "post": {
+      "DELETE": "Post deleted",
+      "UPDATE_REACTION": "Reaction updated",
+      "DELETE_REACTION": "Reaction deleted"
+    },
+    "follow": {
+      "FOLLOW": "You are now following the user",
+      "UNFOLLOW": "User removed from following"
+    },
+    "block": {
+      "BLOCK": "You have blocked the user",
+      "UNBLOCK": "You have unblocked the user"
+    },
+    "channel": {
+      "MODERATOR": "The user is now a moderator of the channel",
+      "NOT_MODERATOR": "The user is no longer a moderator of the channel",
+      "BAN": "The user is banned from the channel",
+      "UNBAN": "The user is no longer banned from the channel",
+      "WAITING": "You have requested to join the channel",
+      "JOINED": "You have joined the channel",
+      "REJECT": "The user has been rejected",
+      "LEAVE": "You have left the channel",
+      "NOT_WAIT": "You have left the channel's waiting list",
+      "REMOVE_USER": "You have removed the user",
+      "DELETE_CHANNEL": "You have deleted the channel",
+      "EDIT": "You have edited the properties",
+      "PICTURE": "Channel image updated",
+      "MEMBER": "The user is now a member of the channel"
+    },
+    "mod": {
+      "BAN": "You have banned the user",
+      "UNBAN": "The user is no longer banned",
+      "USER_UPDATED": "You have updated the user's fields",
+      "USER_DELETED": "You have deleted the user",
+      "QUOTA_UPDATED": "You have updated the user's quota",
+      "USER_PICTURE_DELETED": "You have deleted the user's picture",
+      "CHANNEL_PICTURE_DELETED": "You have deleted the channel's picture",
+      "REACTIONS_UPDATED": "You have updated the post reactions",
+      "OFFICIAL_CHANNEL_NEW": "You have created a new official channel",
+      "VIEWS": "Views updated successfully"
+    },
+    "notification": {
+      "CREATED": "Now you are closer friends"
+    },
+    "message": {
+      "DELETED": "Message deleted"
+    }
+  },
+    "400": {
+    "user": {
+      "BAD_USERNAME": "Invalid username",
+      "BAD_PASSWORD": "Invalid password",
+      "BAD_NEW_PASSWORD": "Invalid new password",
+      "BAD_EMAIL": "Invalid email",
+      "BAD_BIO": "Invalid bio",
+      "BAD_AMOUNT": "Invalid amount",
+      "MISS_USERNAME": "Username missing",
+      "MISS_PASSWORD": "Password missing",
+      "MISSING_CURRENT_PASSWORD": "Current password missing",
+      "MISS_EMAIL": "Email missing",
+      "MISS_FILE": "File missing",
+      "MISS_AMOUNT": "Amount missing",
+      "NONE": "No parameters to modify",
+      "BAD_DATE": "Invalid date"
+    },
+    "format": {
+      "BAD_FORMAT": "Invalid format",
+      "BAD_DATE": "Invalid date",
+      "POPULARITY": "Invalid popularity value",
+      "ATTACHMENT": "Invalid attachment value",
+      "BEFORE": "Invalid start date for search",
+      "AFTER": "Invalid end date for search",
+      "SORT": "Invalid sort value",
+      "BAD_REASON": "Invalid report reason",
+      "BAD_LOCATION": "Invalid searched province",
+      "BAD_PAGE": "Selected page is invalid"
+    },
+    "post": {
+      "REACTION": "Invalid reaction"
+    },
+    "channel": {
+      "PRIVATE": "Channel is not private",
+      "DESCRIPTION": "Invalid description format",
+      "NAME": "Invalid name format",
+      "BAD_PRIVACY": "Specified privacy is invalid"
+    },
+    "auth": {
+      "BAD_TOKEN": "Invalid token"
+    },
+    "report": {
+      "BAD_TYPE": "Filter is invalid or not present",
+      "BAD_SORT": "Sorting is invalid or not present"
+    },
+    "mod": {
+      "BAD_AUTH": "You are not a moderator",
+      "BAD_DAILY_QUOTA": "Invalid daily quota",
+      "BAD_WEEKLY_QUOTA": "Invalid weekly quota",
+      "BAD_MONTHLY_QUOTA": "Invalid monthly quota",
+      "BAD_ROLE": "Specified role is invalid",
+      "MISS_QUERY": "You have not specified the channel query",
+      "BAD_VIEWS": "Specified views are invalid"
+    },
+    "file": {
+      "BAD_TYPE": "Specified file does not have a valid type",
+      "BAD_SIZE": "File size exceeds maximum allowed"
+    },
+    "smm": {
+      "BAD_FORMAT": "Invalid format",
+      "SCORE": "Insufficient scores"
+    }
+  },
+  "401": {
+    "user": {
+      "AUTHORIZATION": "Not authorized"
+    },
+    "channel": {
+      "NOT_MEMBER": "You are not a member of this channel",
+      "BANNED": "You have been banned from this channel",
+      "NOT_OWNER": "You are not the owner of the channel",
+      "OWNER_LEAVE": "You cannot leave the channel, you are the owner"
+    }
+  },
+  "403": {
+    "user": {
+      "PASSWORD": "Incorrect username and/or password",
+      "AUTHORIZATION": "You do not have permission",
+      "USER_NOT_ACTIVATED": "You have not activated your account",
+      "NOT_SMM": "You are not an SMM",
+      "INSUFFICIENT_PERMISSIONS": "Insufficient permissions",
+      "BANNED": "You have been banned from Squealer"
+    },
+    "channel": {
+      "MEMBER": "You must be a member of the channel",
+      "BANNED": "The user is already banned from the channel",
+      "REMOVE_OWNER": "You cannot remove the channel owner",
+      "BAN_OWNER": "You cannot ban the channel owner",
+      "BAN_MOD": "You cannot ban another moderator",
+      "BAN_ADMIN": "You cannot ban a Squealer moderator"
+    },
+    "notification": {
+      "FOLLOW": "You and the recipient must follow each other"
+    }
+  },
+   "404": {
+    "user": {
+      "USER": "User not found",
+      "PASSWORD": "Incorrect username and/or password"
+    },
+    "channel": {
+      "CHANNEL": "Channel not found",
+      "WAITING": "Request not found"
+    },
+    "post": {
+      "POST": "Post not found",
+      "REPLY": "No reply found",
+      "REACTION": "Reaction not found"
+    },
+    "file": {
+      "FILE": "No file found"
+    },
+    "attachment": {
+      "ATTACHMENT": "No attachment found"
+    },
+    "format": {
+      "NONE": "No valid fields found"
+    },
+    "report": {
+      "REPORT": "Report not found"
+    },
+    "misc": {
+      "BAD_ROUTE": "Route not found"
+    },
+    "notification": {
+      "USER": "User not found"
+    },
+    "message": {
+      "USER": "User not found"
+    },
+    "smm": {
+      "SMM": "Smm not found",
+      "REVIEW": "Review not found"
+    },
+    "vip": {
+      "VIP": "Vip not found"
+    }
+  },
+  "409": {
+    "user": {
+      "USERNAME_EMAIL": "Username and/or Email not available",
+      "AMOUNT": "Insufficient credit",
+      "VIP": "You can become a VIP only if you are a regular user"
+    },
+    "post": {
+      "REACTION": "Reaction already present",
+      "BAD_QUOTA": "Insufficient quota"
+    },
+    "follow": {
+      "SELF": "You cannot follow yourself",
+      "BLOCK": "You cannot follow a user you have blocked",
+      "BLOCKED": "You cannot follow a user who has blocked you",
+      "FOLLOWED": "User already followed",
+      "NOT_FOLLOWED": "User not followed"
+    },
+    "block": {
+      "SELF": "You cannot block yourself",
+      "BLOCK": "You have already blocked that user",
+      "UNBLOCK": "User not blocked"
+    },
+    "channel": {
+      "NAME": "Name not available",
+      "MEMBER": "You are already a member of this channel",
+      "MODERATOR": "The user is already among the moderators of the channel",
+      "BAN": "The user is already banned from the channel",
+      "NOT_MEMBER": "The user is not a member of the channel",
+      "NOT_MODERATOR": "The user is not a moderator of the channel",
+      "NOT_BANNED": "The user is not banned from the channel",
+      "WAITING": "You have already requested to join the channel",
+      "NOT_WAITING": "The user has not requested access to the channel"
+    },
+    "notification": {
+      "SELF": "You cannot select yourself",
+      "ALREADY_CLOSE_FRIENDS": "You are already close friends",
+      "NO_PENDING": "There are no pending notifications",
+      "ALREADY_SENT": "You have already sent them a request or they have sent you one"
+    },
+    "message": {
+      "SELF": "you cannot send messages to yourself",
+      "NOT_YOUR_MESSAGE": "you cannot delete messages from others"
+    },
+    "smm": {
+      "ALREADY_SMM": "You are already an smm",
+      "IN_LIST": "You are already in the waiting list",
+      "NOT_LIST": "You are not in the waiting list",
+      "SMM_FULL": "The Smm is not available at the moment",
+      "MANAGED": "The vip is not under the control of the smm",
+      "VIP_SMM": "You are under the control of an smm",
+      "REVIEW": "Existing review",
+      "SCORE": "Insufficient scores"
+    }
+  },
+  "500": {
+    "user": {
+      "REGISTRATION": "Registration failed"
+    },
+    "channel": {
+      "CREATION": "Channel creation failed"
+    },
+    "misc": {
+      "GENERIC_ERROR": "There was an error with the submitted request or its handling ☹️"
+    }
+  },
+  "email": {
+    "CONFIRMATION": "Activate your Squealer account",
+    "RESTORE": "Restore Squealer password"
+  }
+}
+

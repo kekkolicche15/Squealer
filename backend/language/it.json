@@ -1,0 +1,300 @@
+{
+  "201": {
+    "user": {
+      "SIGNUP": "Utente registrato con successo"
+    },
+    "channel": {
+      "CHANNEL": "Canale creato con successo"
+    },
+    "post": {
+      "POST": "Post creati con successo",
+      "REPLY": "Risposta creata con successo",
+      "REACTION": "Reazione creata con successo"
+    },
+    "report": {
+      "USER": "Hai segnalato l'utente",
+      "CHANNEL": "Hai segnalato il canale",
+      "POST": "Hai segnalato il post"
+    },
+    "mod": {
+      "OFFICIAL_CHANNEL": "Hai creato un nuovo canale ufficiale"
+    },
+    "notification": {
+      "SENDED": "notifica inviata"
+    },
+    "message": {
+      "CREATE": " messaggio inviato con successo"
+    }
+  },
+  "200": {
+    "user": {
+      "PASSWORD_RESET_CONFIRM": "Password resettata con successo",
+      "PASSWORD_RESET_REQUEST": "Richiesta ripristino password inoltrata con successo",
+      "DELETE_USER": "Utente eliminato",
+      "VIP_DISABLE": "Non sei più un VIP",
+      "DEBIT_DISABLED": "Non hai piú debito",
+      "DEBT_ADDED": "Ora hai debito",
+      "LOGOUT": "Logout completato",
+      "UPDATE": "Campi aggiornati correttamente",
+      "PROPIC": "Immagine del profilo aggiornata",
+      "DELETE_PROPIC": "Immagine del profilo rimossa",
+      "QUOTAS": "Quote aggiornate",
+      "SCORE": "Score aggiornato",
+      "VIP": "Sei diventato VIP!"
+    },
+    "post": {
+      "DELETE": "Post eliminato",
+      "UPDATE_REACTION": "Reazione aggiornata",
+      "DELETE_REACTION": "Reazione eliminata"
+    },
+    "follow": {
+      "FOLLOW": "Stai seguendo l'utente",
+      "UNFOLLOW": "Utente rimosso dai seguiti"
+    },
+    "block": {
+      "BLOCK": "Hai bloccato l'utente",
+      "UNBLOCK": "Hai sbloccato l'utente"
+    },
+    "channel": {
+      "MODERATOR": "L'utente ora è uno dei moderatore del canale",
+      "NOT_MODERATOR": "L'utente non è più un moderatore del canale",
+      "BAN": "L'utente è bannato dal canale",
+      "UNBAN": "L'utente non è più bannato dal canale",
+      "WAITING": "Hai fatto richiesta per entrare nel canale",
+      "JOINED": "Sei entrato nel canale",
+      "REJECT": "L'utente è stato rifiutato",
+      "LEAVE": "Hai lasciato il canale",
+      "NOT_WAIT": "Sei uscito dalla lista d'attesa del canale",
+      "REMOVE_USER": "Hai rimosso l'utente",
+      "DELETE_CHANNEL": "Hai eliminato il canale",
+      "EDIT": "Hai modificato le proprietà",
+      "PICTURE": "Immagine del canale aggiornata",
+      "MEMBER": "L'utente ora è membro del canale"
+    },
+    "mod": {
+      "BAN": "Hai bannato l'utente",
+      "UNBAN": "L'utente non è più bannato",
+      "USER_UPDATED": "Hai aggiornato i campi dell'utente",
+      "USER_DELETED": "Hai elimitato l'utente",
+      "QUOTA_UPDATED": "Hai aggiornato le quote dell'utente",
+      "USER_PICTURE_DELETED": "Hai eliminato l'immagine dell'utente",
+      "CHANNEL_PICTURE_DELETED": "Hai eliminato l'immagine del canale",
+      "REACTIONS_UPDATED": "Hai aggiornato le reazioni del post",
+      "OFFICIAL_CHANNEL_NEW": "Hai creato un nuovo canale ufficiale",
+      "VIEWS": "Visualizzazioni aggiornate correttamente"
+    },
+    "notification": {
+      "CREATED": "Ora siete amici piú stretti"
+    },
+    "message": {
+      "DELETED": "Messaggio eliminato"
+    }
+  },
+  "400": {
+    "user": {
+      "BAD_USERNAME": "Username non valido",
+      "BAD_PASSWORD": "Password non valida",
+      "BAD_NEW_PASSWORD": "Nuova password non valida",
+      "BAD_EMAIL": "Email non valida",
+      "BAD_BIO": "Bio non valida",
+      "BAD_AMOUNT": "Quantità non valida",
+      "MISS_USERNAME": "Username mancante",
+      "MISS_PASSWORD": "Password mancante",
+      "MISSING_CURRENT_PASSWORD": "Password corrente mancante",
+      "MISS_EMAIL": "Email mancante",
+      "MISS_FILE": "File mancante",
+      "MISS_AMOUNT": "Quantità mancante",
+      "NONE": "Nessun parametro da modificare",
+      "BAD_DATE": "Data non valida"
+    },
+    "format": {
+      "BAD_FORMAT": "Formato non valido",
+      "BAD_DATE": "Data non valida",
+      "POPULARITY": "Valore di popularity non valido",
+      "ATTACHMENT": "Valore di attachment non valido",
+      "BEFORE": "Data di inizio ricerca non valida",
+      "AFTER": "Data di fine ricerca non valida",
+      "SORT": "Valore di ordinamento non valido",
+      "BAD_REASON": "Motivo della segnalazione non valido",
+      "BAD_LOCATION": "La provincia ricercata non è valida",
+      "BAD_PAGE": "La pagina selezionata non è valida"
+    },
+    "post": {
+      "REACTION": "Reazione non valida"
+    },
+    "channel": {
+      "PRIVATE": "Il canale non è privato",
+      "DESCRIPTION": "Formato della descrizione non valido",
+      "NAME": "Formato del nome non valido",
+      "BAD_PRIVACY": "La privacy specificata non è valida"
+    },
+    "auth": {
+      "BAD_TOKEN": "Token non valido"
+    },
+    "report": {
+      "BAD_TYPE": "Il filtro non è valido oppure non è presente",
+      "BAD_SORT": "L'ordinamento è non valido o non è presente"
+    },
+    "mod": {
+      "BAD_AUTH": "Non sei un moderatore",
+      "BAD_DAILY_QUOTA": "Quota giornaliera non valida",
+      "BAD_WEEKLY_QUOTA": "Quota settimanale non valida",
+      "BAD_MONTHLY_QUOTA": "Quota mensile non valida",
+      "BAD_ROLE": "Ruolo specificato non valido",
+      "MISS_QUERY": "Non hai specificato la query del canale",
+      "BAD_VIEWS": "Visualizzazioni specificate non valide"
+    },
+    "file": {
+      "BAD_TYPE": "Il file specificato non ha un tipo valido",
+      "BAD_SIZE": "La dimensione del file eccede quella massima consentita"
+    },
+    "smm": {
+      "BAD_FORMAT": "Formato non valido",
+      "SCORE": "Punteggi non sufficienti"
+    }
+  },
+  "401": {
+    "user": {
+      "AUTHORIZATION": "Non autorizzato"
+    },
+    "channel": {
+      "NOT_MEMBER": "Non sei membro di questo canale",
+      "BANNED": "Sei stato bannato da questo canale",
+      "NOT_OWNER": "Non sei il proprietario del canale",
+      "OWNER_LEAVE": "Non puoi abbandonare il canale, sei il proprietario"
+    }
+  },
+  "403": {
+    "user": {
+      "PASSWORD": "Username e/o password errati",
+      "AUTHORIZATION": "Non hai i permessi",
+      "USER_NOT_ACTIVATED": "Non hai attivato l'account",
+      "NOT_SMM": "Non sei un smm",
+      "INSUFFICIENT_PERMISSIONS": "Permessi insufficienti",
+      "BANNED": "Sei stato bannato da Squealer"
+    },
+    "channel": {
+      "MEMBER": "Devi essere membro del canale",
+      "BANNED": "L'utente è già bannato dal canale",
+      "REMOVE_OWNER": "Non puoi rimuovere il proprietario del canale",
+      "BAN_OWNER": "Non puoi bannare il proprietario del canale",
+      "BAN_MOD": "Non puoi bannare un altro moderatore",
+      "BAN_ADMIN": "Non puoi bannare un moderatore di Squealer"
+    },
+    "notification": {
+      "FOLLOW": "Tu ed il destinatario vi dovete seguire a vicenda"
+    }
+  },
+  "404": {
+    "user": {
+      "USER": "Utente non trovato",
+      "PASSWORD": "Username e/o password errati"
+    },
+    "channel": {
+      "CHANNEL": "Canale non trovato",
+      "WAITING": "Richiesta non trovata"
+    },
+    "post": {
+      "POST": "Post non trovato",
+      "REPLY": "Nessuna risposta trovata",
+      "REACTION": "Reazione non trovata"
+    },
+    "file": {
+      "FILE": "Nessun allegato trovato"
+    },
+    "attachment": {
+        "ATTACHMENT": "Allegato non trovato"
+    },
+    "format": {
+      "NONE": "Nessun campo valido trovato"
+    },
+    "report": {
+      "REPORT": "Segnalazione non trovata"
+    },
+    "misc": {
+      "BAD_ROUTE": "Route non trovata"
+    },
+    "notification": {
+      "USER": "Utente non trovato"
+    },
+    "message": {
+      "USER": "Utente non trovato"
+    },
+    "smm": {
+      "SMM": "Smm non trovato",
+      "REVIEW": "Recensione non trovato"
+    },
+    "vip": {
+      "VIP": "Vip non trovato"
+    }
+  },
+  "409": {
+    "user": {
+      "USERNAME_EMAIL": "Username e/o Email non disponibili",
+      "AMOUNT": "Credito insufficiente",
+      "VIP": "Puoi diventare VIP solo se sei un utente normale"
+    },
+    "post": {
+      "REACTION": "Reazione già presente",
+      "BAD_QUOTA": "Quota insuffiente"
+    },
+    "follow": {
+      "SELF": "Non puoi seguire te stesso",
+      "BLOCK": "Non puoi seguire un utente che hai bloccato",
+      "BLOCKED": "Non puoi seguire un utente che ti ha bloccato",
+      "FOLLOWED": "Utente già seguito",
+      "NOT_FOLLOWED": "Utente non seguito"
+    },
+    "block": {
+      "SELF": "Non puoi bloccare te stesso",
+      "BLOCK": "Hai già bloccato quell'utente",
+      "UNBLOCK": "Utente non bloccato"
+    },
+    "channel": {
+      "NAME": "Nome non disponibile",
+      "MEMBER": "Sei già membro di questo canale",
+      "MODERATOR": "L'utente è già tra i moderatore del canale",
+      "BAN": "L'utente è già bannato dal canale",
+      "NOT_MEMBER": "L'utente non è membro del canale",
+      "NOT_MODERATOR": "L'utente non è moderatore del canale",
+      "NOT_BANNED": "L'utente non è bannato dal canale",
+      "WAITING": "Hai già fatto richiesta di entrare nel canale",
+      "NOT_WAITING": "L'utente non ha fatto richiesta di accesso al canale"
+    },
+    "notification": {
+      "SELF": "Non puoi selezionare te stesso",
+      "ALREADY_CLOSE_FRIENDS": "Siete giá amici piú stretti",
+      "NO_PENDING": "Non ci sono notifiche in sospeso",
+      "ALREADY_SENT": "Gli hai giá inviato una richiesta o lui te ne ha inviata una"
+    },
+    "message": {
+      "SELF": "non puoi inviare messaggi a te stesso",
+      "NOT_YOUR_MESSAGE": "non puoi eliminare messaggi di altre persone"
+    },
+    "smm": {
+      "ALREADY_SMM": "Sei gia' un smm",
+      "IN_LIST": "Sei gia' in the waiting list",
+      "NOT_LIST": "Non sei nella waiting list",
+      "SMM_FULL": "Il Smm non e' disponibile al momento",
+      "MANAGED": "Il vip non e' sotto il controllo dell'smm ",
+      "VIP_SMM": "Sei sotto il controllo di un smm",
+      "REVIEW": "Review esistente",
+      "SCORE": "Scores insufficienti"
+    }
+  },
+  "500": {
+    "user": {
+      "REGISTRATION": "Registrazione fallita"
+    },
+    "channel": {
+      "CREATION": "Creazione canale fallita"
+    },
+    "misc": {
+      "GENERIC_ERROR": "C'è stato un errore con la richiesta inoltrata o con la sua gestione☹️"
+    }
+  },
+  "email": {
+    "CONFIRMATION": "Attiva il tuo account Squealer",
+    "RESTORE": "Ripristina password Squealer"
+  }
+}

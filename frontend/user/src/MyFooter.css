@@ -1,0 +1,4 @@
+.icon-animation {
+  transform: scale(1.4); /* Ingrandisci l'icona del 20% */
+  transition: transform 0.3s ease-in-out; /* Aggiungi un'animazione di transizione */
+}

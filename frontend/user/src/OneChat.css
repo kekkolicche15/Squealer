@@ -1,0 +1,14 @@
+.mycard {
+  --bs-card-spacer-y: 2px !important;
+  --bs-card-spacer-x: 2px !important;
+}
+
+.mycardvideo {
+  --bs-card-spacer-y: 20px !important;
+  --bs-card-spacer-x: 2px !important;
+}
+
+.my-modal {
+  max-width: 90vw;
+  max-height: 30vh;
+}
